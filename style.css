@@ -85,3 +85,22 @@ body {
   padding-left: 0;
   overflow-y: scroll;
 }
+
+.item {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: var(--base-space);
+  margin-bottom: var(--base-space);
+  border-radius: var(--size-border);
+}
+
+.item__thumbnail {
+  width: var(--size-thumbnail);
+  height: var(--size-thumbnail);
+}
+
+.item__description {
+  margin-left: calc(var(--base-space) * 2);
+  font-size: var(--font-size);
+}
