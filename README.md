@@ -1,2 +1,3 @@
-# ShoppingmallMinigame
- You can make a shopping list by items and colors
+# Shoppingmall Minigame
+# HTML, CSS, JavaScript
+# 2021.01.15 ~ 2021.01.18
