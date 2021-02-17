@@ -55,7 +55,7 @@ body {
   align-items: center;
 }
 
-.itemBtn {
+.imgBtn {
   width: var(--size-button);
   height: var(--size-button);
 }
@@ -93,6 +93,11 @@ body {
   padding: var(--base-space);
   margin-bottom: var(--base-space);
   border-radius: var(--size-border);
+}
+
+.item.invisible {
+  background-color: var(color-white);
+  display: none;
 }
 
 .item__thumbnail {
